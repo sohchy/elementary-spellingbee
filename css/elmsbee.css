@@ -1,5 +1,83 @@
 body {
-	background-color: #fff;
+	background-color: #9EBBC5;
 	font-family: 'Josefin Slab', arial, serif;
-	font-size: 14px;
+	font-size: 18px;
+}
+
+#header{
+	background-color: #16193B;
+	margin: 0 auto;
+	height: 70px;
+}
+
+#header p{
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+	padding:17px 0px;
+}
+
+#contentArea{
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+#screenKeyboard {
+	margin: 0 auto;
+	width: 840px;
+}
+
+#screenKeyboard a {
+	text-decoration: none;
+	color: #000;
+}
+
+#screenKeyboard a:hover{
+	color: #bbb;
+}
+
+.screenKeyboardRow {
+	float: left;
+}
+
+.keyboardLongKeys{
+	width: 136px !important;
+}
+
+.screenKeyboardRow li{
+	float: left;
+	padding:10px;
+	margin:5px 5px;
+	border: 1px solid #000;
+	background-color: #fff;
+	font-size: 30px;
+	width: 52px;
+	height: 26px;
+	text-align:center;
+	/*rounded borders */
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-opera-border-radius: 10px;	
+}
+
+.clear{
+	clear: both;
+}
+
+#listenToWord {
+	font-size: 30px;
+	
+}
+
+#typeWordInputBox input {
+	font-size: 28px;
+	color: #bbb;
+	/*rounded borders */
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-opera-border-radius: 10px;
+
 }
